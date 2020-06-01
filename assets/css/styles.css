@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    cursor: default;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    color: #ffffff;
+    background-color: #000000;
+    font-family: DejaVu Sans Mono, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+tr {
+    text-align: center;
+    vertical-align: middle;
+}
+
+tr > td {
+    width: 20%;
+    height: 150px;
+    border: 1px dashed #AAAAAA;
+    border-top: 0;
+    border-left: 0;
+    padding: 15px;
+}
+
+tr > td:last-child {
+    border-right: 0;
+}
+
+tr:last-child > td {
+    border-bottom: 0;
+}
+
+tr > td.farol-shopping {
+    background-color: #000;
+}
+
+tr > td.softpc {
+    background-color: #4976b8;
+}
+
+tr > td img {
+    max-width: 100%;
+}
